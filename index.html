@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========== FAVICON ========== -->
+    <link rel="shortcut icon" href="./assets/img/favicon-32x32.png" type="image/x-icon">
+
+    <!-- ========== BOXICON ========== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ========== CSS ========== -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Ecommerce</title>
+</head>
+
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <div class="nav__logo-name">
+                    <h2>WebStore</h2>
+                </div>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Sobre</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#prod" class="nav__link">Store</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-water'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main" id="main">
+
+        <!-- ========== HOME ========== -->
+        <section class="home section" id="home">
+            <div class="home__center  container grid">
+                <div class="home__data__container">
+                    <span class="section__subtitle">Olá, seja bem vindo a</span>
+                    <h2 class="section__title_name">WebStore</h2>
+
+                    <div class="home__container">
+                        <div class="home__data">
+                            <p class="home__description">
+                                Esta buscando um template para sua empresa ou trabalho escolar ?<br> na WebStore você
+                                encontra o que deseja.
+                            </p>
+                            <a href="#contact" class="button btn">Store<span>&#x27F6;</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__data__container ">
+                    <img src="./assets/img/img-home.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="section about" id="about">
+            <div class="container">
+                <h2 class="section__title_about">Sobre Nós</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <h3>Quem Somos</h3>
+                        <p>
+                            Na WebStore, somos especializados na criação de sites front-end de alta qualidade,
+                            projetados para atender às necessidades de empresas que estão começando sua jornada digital
+                            e de estudantes que precisam de um trabalho rápido e eficaz. Nossa missão é fornecer
+                            soluções acessíveis e eficientes para transformar suas ideias em presença online.
+                        </p>
+                        <h3>O que Fazemos</h3>
+                        <p>
+                            Nossos pacotes incluem templates de sites desenvolvidos com as melhores práticas de design e
+                            desenvolvimento. Você pode adquirir o código e adaptá-lo conforme a identidade da sua marca,
+                            os requisitos específicos do seu projeto ou as necessidades de seus estudos. Facilitamos o
+                            processo para que você tenha um site funcional e esteticamente agradável rapidamente.
+                        </p>
+                        <h3>Por Que Escolher a Gente?</h3>
+                        <p>
+                            Se você é uma empresa em crescimento ou um estudante com prazos apertados, nossa solução
+                            oferece uma base sólida e fácil de personalizar. Com nosso código front-end, você economiza
+                            tempo e esforço, focando apenas nas personalizações necessárias para alcançar o resultado
+                            desejado. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--=============== PRODUCTS ===============-->
+        <section class="prod section" id="prod">
+            <h2 class="section__title_prod">Produtos Web</h2>
+            <div class="prod__center container grid">
+                <div class="prod__container">
+                    <div class="prod__content">
+                        <img src="./assets/img/travel.png" alt="" class="prod__img">
+                        <h3 class="prod__title"><a href="https://travel-gilt-gamma.vercel.app/" target="_blank">Veja - Travel</a></h3>
+                        <span class="prod__subtitle">E-commerce</span>
+                        <span class="prod__price">R$49,99</span>
+                        <button class="button prod__button">
+                            <i class='bx bx-cart-alt prod__icon'></i>
+                        </button>
+                    </div>
+                    <div class="prod__content">
+                        <img src="./assets/img/natal.png" alt="" class="prod__img">
+                        <h3 class="prod__title"><a href="https://natalina.vercel.app/" target="_blank">Veja - Natalina</a></h3>
+                        <span class="prod__subtitle">E-commerce</span>
+                        <span class="prod__price">R$79,99</span>
+                        <button class="button prod__button">
+                            <i class='bx bx-cart-alt prod__icon'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ========== JS ========== -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
